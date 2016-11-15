@@ -6,8 +6,13 @@ struct Pemain {
 }
 
 fn main() {
-    println!("Hello, world!");
+    // Variabel dasar
     let angka = 9;
+    let salam = "Selamat datang, Android no ";
+    let halo = format!("{} {}", salam, angka);
+    println!("{:?}", halo);
+
+    // variabel dan fungsi
     let angka_saya = calc(angka);
     println!("{}", angka_saya);
     let messi = tambah_pemain("Messi", 29, 500);

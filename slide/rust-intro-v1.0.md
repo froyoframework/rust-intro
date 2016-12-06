@@ -68,10 +68,10 @@
 # Rust's Killer Features
 
 - Concept of "Borrowing and Ownership"
-- Type safety
-- Traits based generics
+    - Type safety
+    - Memory safety
+- Zero-cost abstractions
 - Pattern matching
-- Memory safety
 
 ---
 
@@ -83,6 +83,14 @@
     + Ownership of data
 - Safe: No data race, guaranteed data lifetime, no dangling-pointer
     + Ownership and Borrowing only allows one mutable reference (write access)
+
+---
+
+# Also in Rust
+
+- Built-in unit testing
+- Cargo: Rust's built-in package and build manager
+- Helpful error messages in compiler
 
 ---
 
@@ -202,6 +210,7 @@ let pemain_keren = tambah_para_pemain();
 - A key concept that ensures safety and concurrency in Rust
 - Basically everytime a variable is used, its ownership is transferred to the one uses/calls it
 - When an ownership is transferred, the old owner can't use the entity anymore
+- Checked at compile time
 
 ```
 let pemain_bola = pemain_keren;

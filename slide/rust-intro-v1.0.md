@@ -233,6 +233,8 @@ println!("pemain pertama adalah: {}", pemain_keren[0].nama);
 ```
 let mut a = 90;
 let b = &mut a;
+*b += 1;
+println!("{}", b); //prints 91
 ```
 
 ---

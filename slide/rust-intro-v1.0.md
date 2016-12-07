@@ -14,6 +14,7 @@
 
 - Chief Academic Officer at Framework
 - Chief Technology Officer at Labtek Indie
+- Certified Unity Developer
 
 ---
 
@@ -23,15 +24,6 @@
 - Based in BSD
 
 ![](https://scontent.cdninstagram.com/t51.2885-19/s150x150/12501964_776556112474284_1583292585_a.jpg)
-
----
-
-# Labtek Indie
-
-- Rapid Prototyping As A Service
-- Based in Bandung
-
-![](https://d1qb2nb5cznatu.cloudfront.net/startups/i/321497-a83fd6324ed6c76e05dc137012e59bef-medium_jpg.jpg?buster=1389436901)
 
 ---
 

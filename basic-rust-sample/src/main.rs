@@ -5,6 +5,20 @@ struct Pemain {
     gol: i32,
 }
 
+impl Pemain {
+    fn new(nama: &str) -> Pemain {
+        Pemain {
+            nama: nama.to_string(),
+            umur: 27,
+            gol: 100
+        }
+    }
+
+    fn get_gol(&self) -> i32 {
+        self.gol
+    }
+}
+
 fn main() {
     // Variabel dasar
     let angka = 9;
@@ -33,7 +47,11 @@ fn main() {
         let b = &mut a;     // a dipinjam di sini
         *b += 9;            // isi a diakses di sini
     }                       // peminjaman a berakhir di sini
-    println!("{}", a);
+    println!("a bernilai {}", a);
+
+    let pemain_milan = Pemain::new("Andre Silva");
+    let jumlah_gol = pemain_milan.get_gol();
+    println!("Jumlah gol Andre Silva {}", jumlah_gol);
 }
 
 fn calc(x: i32) -> i32 {
